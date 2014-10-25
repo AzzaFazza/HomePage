@@ -1,46 +1,4 @@
-<html>
-<head>
-	<title>Homepage</title>
-	<!-- Styling -->
-	<link rel = "stylesheet" type = "text/css" href = "css/style.css">
-	<link rel = "stylesheet" type = "text/css" href = "css/dragBox.css">
-
-	<!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-
-	<!-- jQuery and JS -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="js/drag.js"></script>
-
-
-</head>
-<body>
-<!-- Main Content -->
-<div class="header">
-	<h1 class="headerText">Homepage</h1>
-</div>
-<div>
-<div class="window noselect" id="html">
-  <div class="pew">BBC</div>
-  <div class="containerBBC">
-  	<iframe width="490" height="290" src="http://www.bbc.com" style="-webkit-transform:scale(1.0);-moz-transform-scale(1.0);"></iframe>
-  </div>
-</div>
-<div class="window noselect" id="css">
-  <div class="pew">4chan /g/</div>
-  <div class="container4Chan">
-  	  	<iframe width="490" height="290" src="http://www.4chan.org/g" style="-webkit-transform:scale(1.0);-moz-transform-scale(1.0);"></iframe>
-  </div>
-</div>
-<div class="window noselect" id="js">
-  <div class="pew">TechCrunch</div>
-  <div class="containerTwitter">
-  	  	<iframe width="490" height="290" src="http://www.techcrunch.com" style="-webkit-transform:scale(1.0);-moz-transform-scale(1.0);"></iframe>
-  </div>
-</div>
-</div>
-<script type="text/javascript">
-	(function ( $ ) {
+(function ( $ ) {
   var biggestz = 0;
 
     $.fn.nwindow = function( options ) {
@@ -103,6 +61,3 @@
 $( "#html" ).nwindow({});
 $( "#css" ).nwindow({});
 $( "#js" ).nwindow({});
-</script>
-</body>
-</html>
