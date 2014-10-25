@@ -26,6 +26,8 @@ into index.html
 
 TODO
 
-1.Add Quick Way to add new sites
-2.Improve load time of iframes or convert to use <canvas> element instead
-3.Add theme editor
+1.Add Quick Way to add new sites.
+
+2.Improve load time of iframes or convert to use <canvas> element instead.
+
+3.Add theme editor.
